@@ -1,0 +1,18 @@
+{
+  "name": "request-header",
+  "version": "1.0.0",
+  "description": "Get information about your computer",
+  "main": "index.js",
+  "scripts": {
+    "test": "run index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.heroku.com/request-header-enirrisky.git"
+  },
+  "keywords": [
+    "information"
+  ],
+  "author": "sirrineprogramming@gmail.com",
+  "license": "ISC"
+}
