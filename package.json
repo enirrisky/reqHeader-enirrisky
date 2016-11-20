@@ -4,7 +4,8 @@
   "description": "Get information about your computer",
   "main": "index.js",
   "scripts": {
-    "test": "run index.js"
+    "test": "node index.js",
+	"start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -13,6 +14,10 @@
   "keywords": [
     "information"
   ],
+  "engines" : { "node" : "4.4.4" },
   "author": "sirrineprogramming@gmail.com",
-  "license": "ISC"
+  "license": "ISC",
+    "dependencies": {
+    "express": "^4.13.3"
+  }
 }

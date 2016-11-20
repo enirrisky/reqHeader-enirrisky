@@ -2,6 +2,7 @@ var express = require('express');
 var app = express();
 
 app.use(express.static('public'));
+app.set('view engine', 'jade');
 app.set('views', __dirname + '/views');
 
 var port = process.env.PORT || 8080;
@@ -14,8 +15,9 @@ app.get('/', function (req, res) {
    res.render('pages/index');
 });
 
+/*
 app.get('/api/whoami', function(req, res) {
 	
 });
-
+*/
 
