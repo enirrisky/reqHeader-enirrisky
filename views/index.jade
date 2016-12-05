@@ -1,13 +1,11 @@
 doctype html
-	html(lang="en")
-	head
-		title= pageTitle
-	body
-		h1 Jade - node template engine
-		#container.col
-			p.
-				Jade is a terse and simple templating language with a
-				strong focus on performance and powerful features.
-			
-			a(href="/api/whoami").
-				click here to get info
+html(lang="en")
+head
+title= pageTitle
+body
+h1 Get Computer Information
+#container.col
+p. 
+  get information about your computer in JSON form
+a(href="/api/whoami").
+ click here to get info
