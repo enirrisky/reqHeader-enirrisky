@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "node index.js",
-	"start": "node index.js"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -14,13 +14,14 @@
   "keywords": [
     "information"
   ],
-  "engines" : { 
-	"node" : "4.4.4",
-	"npm" : "3.10.7"
+  "engines": {
+    "node": "4.4.4",
+    "npm": "3.10.7"
   },
   "author": "sirrineprogramming@gmail.com",
   "license": "ISC",
-    "dependencies": {
-    "express": "^4.13.3"
+  "dependencies": {
+    "express": "^4.13.3",
+    "jade": "^1.11.0"
   }
 }
