@@ -4,7 +4,7 @@ app.enable('trust proxy');
 
 app.use(express.static('public'));
 app.set('view engine', 'jade');
-app.set('views', __dirname + '/views');
+app.set('views', './views');
 
 var port = process.env.PORT || 8080;
 
@@ -13,7 +13,7 @@ app.listen(port, function(){
 });
 
 app.get('/', function (req, res) {
-   res.render('views/pages/index');
+   res.render('index');
 });
 
 
