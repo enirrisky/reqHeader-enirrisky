@@ -10,8 +10,11 @@ app.listen(port, function(){
   console.log("Listening on port: " + port);
 });
 
+app.set('view engine','jade');
+app.set('views', './views');
+
 app.get('/', function (req, res) {
-   res.render('index.html');
+   res.render('index');
 });
 
 
