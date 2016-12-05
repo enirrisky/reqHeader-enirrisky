@@ -2,7 +2,7 @@
   "name": "request-header",
   "version": "1.0.0",
   "description": "Get information about your computer",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "node app.js",
 	"start": "node app.js"
