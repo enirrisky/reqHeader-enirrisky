@@ -3,8 +3,6 @@ var app = express();
 app.enable('trust proxy');
 
 app.use(express.static('public'));
-app.set('view engine', 'jade');
-app.set('views', './views');
 
 var port = process.env.PORT || 8080;
 
