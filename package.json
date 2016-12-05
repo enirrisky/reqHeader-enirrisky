@@ -2,10 +2,10 @@
   "name": "request-header",
   "version": "1.0.0",
   "description": "Get information about your computer",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
-    "test": "node app.js",
-	"start": "node app.js"
+    "test": "node index.js",
+	"start": "node index.js"
   },
   "repository": {
     "type": "git",
